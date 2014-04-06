@@ -5,7 +5,7 @@ Includes a custom [Upstart](http://upstart.ubuntu.com/) script to run as Linux d
 Web
 -------
 * Official Website: [http://wildphp.com](http://wildphp.com), Source Code: [Github](https://github.com/pogosheep/IRC-Bot)
-* Major Contributors: [Super3](http://super3.org), [Pogosheep](http://layne-obserdia.de), [Matejvelikonja](http://velikonja.si)
+* Major Contributors: [Super3](http://super3.org), [Pogosheep](http://layne-obserdia.de), [Matejvelikonja](http://velikonja.si), [Matthew Boyd](http://matt.coldcity.com).
 
 ## Features and Functions
 
@@ -22,10 +22,12 @@ Web
 ### Entended Commands
 
 * !ip - Returns IP of a user.
-* !weather [location] - Returns weather data for location.
 * !poke [#channel] [username] - Pokes the specified IRC user.
-* !joke - Returns random joke. Fetched from [ICNDb.com](http://www.icndb.com/).
-* !imdb [movie title] - Searches for movie and returns it's information.
+* !btc - Get the price of bitcoin.
+* !Doge - Get the price of dogecoin.
+* !Total [amount] - Get the price of [amount] dogecoins.
+* !joke - Tells you a random joke.
+* !DogeD - Tells you the difficulty of mining dogecoins.
 
 
 ### Listeners
@@ -78,4 +80,4 @@ Stop
     
 ### Community
 
-IRC: [#phpbot404@freenode.net](http://webchat.freenode.net/?channels=phpbot404)
+IRC: [#matthew_boyd@freenode.net](http://webchat.freenode.net/?channels=matthew_boyd)
